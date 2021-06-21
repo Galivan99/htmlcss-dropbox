@@ -1,0 +1,103 @@
+/* common */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+#main-nav{
+    line-height: 76px;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul , li {
+    display: inline;
+    padding: 10px;  
+    vertical-align: middle;  
+}
+
+.container-center{
+    width: 80%;
+    margin: auto;
+}
+
+main img{
+    max-width: 100%;
+}
+
+section{
+    display: block;
+}
+/* / common */
+
+header{
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 500;
+    height: 80px;
+    line-height: 80px;
+    min-width: 1175px;
+}
+#logo{
+    float: left;
+    vertical-align: middle;
+    padding-top: 35px;
+}
+
+#sx{
+    float: left;
+}
+
+#dx{
+    float: right;
+}
+
+.btn{
+    color: white;
+    background-color: blue ;
+    padding: 10px;
+}
+
+#jumbo{
+    background-color: #b4d0e7;
+}
+
+#jumbo .container-center{
+    position: relative;
+    width: 90%;
+    max-width: 1320px;
+    bottom: -80px;
+}
+
+#jumbo .column-dx{
+    float: right;
+    
+}
+
+#jumbo .column-sx{
+    width: 65%;
+    margin-left: 5%;
+    float: left;
+    
+}
+
+#jumbo h1{
+    line-height: 108px;
+    margin-bottom: 30px;
+    font-size: 77px;
+}
