@@ -75,7 +75,7 @@ main .container-center{
 
 .btn{
     color: white;
-    background-color: blue ;
+    background-color: #0161FF ;
     padding: 10px;
 }
 
@@ -168,7 +168,7 @@ main .container-center{
 }
 
 .blue{
-    color: blue;
+    color: #0161FF;
     text-decoration: underline;
 }
 
@@ -183,7 +183,7 @@ hr{
 }
 
 .column ul i {
-    color: blue;
+    color: #0161FF;
 }
 
 .column ul li{
@@ -195,4 +195,88 @@ hr{
     float: left;
 }
 
-team
+.team{
+    width: 100%;
+    
+    border: solid 1px;
+    margin-top: 900px;
+    
+}
+
+.team .far{
+    height: 50px;
+    vertical-align: middle;
+    line-height: 35px;
+}
+
+.team .btn{
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.team h2{
+    float: left;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+.ent{
+    float:left;
+    display: block;
+    padding: 10px;
+}
+
+#partners .container-center img{
+    width: 55%;
+    float:left ;
+}
+
+#partners .container-center .p_text{
+    float:left ;
+    width: 35%;
+    padding: 30px;
+}
+
+#partners .container-center .p_text h2{
+
+    padding-bottom: 30px;
+}
+
+.btn_blank{
+    padding: 10px;
+    border: solid 1px;
+    width: 200px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.op_img{
+    width: calc((100% / 3) - 60px);
+    float: left;
+    margin: 20px;
+}
+
+#costumer .container-center h4{
+    color: #0161FF;
+    text-decoration: underline;
+    padding: 20px;
+    padding-left: 0px;
+
+}
+
+#costumer .cost_logo{
+    float: left;
+    width: 25%;
+}
+
+#costumer .cost_logo img{
+    float: left;
+    width: 50%;
+    height: 50%;
+    font-size: 10px;
+}
+
