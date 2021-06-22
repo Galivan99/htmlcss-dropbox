@@ -119,3 +119,80 @@ main .container-center{
 #arrow{
     font-size: 77px;
 }
+
+#plans{
+    margin-top: 150px;
+
+}
+
+#plans h1{
+    margin-bottom: 50px;
+}
+
+.inp_rad{
+    padding: 10px;
+}
+/* Colonne */
+#plans .column{
+    float: left;
+    width: calc((100% / 3) - 60px);
+    margin: 0px 60px;
+    border: solid 1px;
+    margin-top: 10px;
+    margin-left: 0px;
+   
+}
+
+#c_testo{
+    padding: 5px;
+    border-bottom: solid 1px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.column h3 , .column h4{
+    padding: 10px;
+}
+.g_color{
+    color: gray;
+}
+
+.column i{
+    padding: 10px;
+}
+
+.column .btn{
+    text-align: center;
+    margin: 10px;
+}
+
+.blue{
+    color: blue;
+    text-decoration: underline;
+}
+
+.acq{
+    padding: 10px;
+}
+
+hr{
+    color: gray;
+    width: 25%;
+    margin: 10px;
+}
+
+.column ul i {
+    color: blue;
+}
+
+.column ul li{
+    display: block;
+    padding-left: 0px;
+}
+
+#btn_pos{
+    float: left;
+}
+
+team
