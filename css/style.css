@@ -16,7 +16,7 @@ body{
     line-height: 76px;
 }
 
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -50,13 +50,19 @@ header{
     width: 100%;
     z-index: 500;
     height: 80px;
-    line-height: 80px;
+    line-height: 50px;
     min-width: 1175px;
+    background-color: white;
 }
+
+main .container-center{
+    margin-top: 50px;
+}
+
 #logo{
     float: left;
     vertical-align: middle;
-    padding-top: 35px;
+    padding-top: 20px;
 }
 
 #sx{
@@ -75,6 +81,7 @@ header{
 
 #jumbo{
     background-color: #b4d0e7;
+
 }
 
 #jumbo .container-center{
@@ -85,19 +92,30 @@ header{
 }
 
 #jumbo .column-dx{
-    float: right;
-    
+    width: 65%;
+    float: left;
 }
 
 #jumbo .column-sx{
-    width: 65%;
+    width: 30%;
     margin-left: 5%;
     float: left;
+    
     
 }
 
 #jumbo h1{
     line-height: 108px;
     margin-bottom: 30px;
+    font-size: 77px;
+}
+
+#jumbo .column-sx .btn{
+    width: 55%;
+    margin: 10px;
+    margin-left: 0;
+}
+
+#arrow{
     font-size: 77px;
 }
