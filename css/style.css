@@ -42,6 +42,9 @@ section{
 }
 /* / common */
 
+/* header/jumbo */
+
+
 header{
     padding: 0;
     position: fixed;
@@ -119,6 +122,8 @@ main .container-center{
 #arrow{
     font-size: 77px;
 }
+
+/* Plans */
 
 #plans{
     margin-top: 150px;
@@ -230,6 +235,8 @@ hr{
     padding: 10px;
 }
 
+/* Partners */
+
 #partners .container-center img{
     width: 55%;
     float:left ;
@@ -259,6 +266,8 @@ hr{
     float: left;
     margin: 20px;
 }
+
+/* Costumers */
 
 #costumer .container-center h4{
     color: #0161FF;
@@ -313,6 +322,8 @@ hr{
     padding: 10px;
 }
 
+/* Start */
+
 #start .bg_start{
     background-color: #B4D0E7;
     height: 350px;
@@ -338,6 +349,7 @@ hr{
     margin-top: 357px;
 }
 
+/* FAQ */
 
 #faq .container-center{
     margin-top: 100px;
@@ -360,4 +372,35 @@ hr{
 
 #faq .container-center hr{
     width: 100%;
+}
+
+
+/* Footer */
+
+footer{
+    background-color:black;
+    color: white;
+    height: 500px;
+    text-align: center;
+}
+
+footer .container-center ul{
+    padding-top: 50px;
+    display: inline-block;
+    text-align: left;
+}
+
+footer .container-center ul li{
+    display: block;
+    width: 200px ;
+}
+
+footer hr , .globe{
+    color: gray;
+    text-align: left;
+}
+
+footer hr{
+    width: 100px;
+    margin-top: 50px;
 }
