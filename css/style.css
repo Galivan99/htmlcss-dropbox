@@ -337,3 +337,27 @@ hr{
 #start{
     margin-top: 357px;
 }
+
+
+#faq .container-center{
+    margin-top: 100px;
+    
+}
+
+#faq .container-center h2,h3{
+    padding-top: 20px;
+}
+
+#faq .container-center h3{
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+#faq .container-center .arrow{
+    text-align: right;
+    margin-left: 300px;
+}
+
+#faq .container-center hr{
+    width: 100%;
+}
